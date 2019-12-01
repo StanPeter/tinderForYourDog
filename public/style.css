@@ -13,6 +13,7 @@ h1 {
     font-family: "Montserrat-Black", sans-serif;
     font-size: 3.5em;
     line-height: 1.5;
+    font-weight: 800;
 }
 
 p {
@@ -30,6 +31,7 @@ section {
 
 .navbar-brand {
     font-size: 2em;
+    font-weight: 500;
 }
 
 .nav-link {
@@ -73,11 +75,33 @@ section {
     background: #ef8172;
     color: #fff;
     padding: 5em 0;
+}
 
+.custom-2 h2 {
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3em;
 }
 
 .custom-2 img {
-    border-radius: 50%;
-    width: 10%;
+    width: 15%;
+    margin: 1em 1em;
 }
 
+.custom-2-image {
+    border-radius: 50%;
+    width: 12% !important;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+@media only screen and (max-width: 700px) {
+    /* .custom-2 img {
+    width: 25%;
+    padding: 4em 1em;
+    } */
+}
