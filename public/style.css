@@ -1,0 +1,83 @@
+/* styles for the whole webpage */
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+p {
+    color: grey;
+}
+
+section {
+    margin: 8em 0;
+}
+
+/* header styiling */
+.navbar {
+    padding: 0 0 4.5em;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav-link {
+    margin-left: 2.5em;
+    font-size: 1.2em;
+    font-family: "Montserrat-light";
+}
+
+.header {
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    color: white;
+}
+
+.header-custom button {
+    margin: 5% 3% 5% 0;
+}
+
+.header-custom img {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Section 1 (right after header section) */
+.custom-1 i {
+    color: #ef8172;
+    font-size: 3.5em;
+}
+
+.custom-1 i:hover {
+    color: #ff4c68;
+}
+
+.custom-1 h3 {
+    padding: 0.5em 0 0.2em;
+    font-weight: 600;
+}
+ 
+/* Section 2 styiling */
+.custom-2 {
+    background: #ef8172;
+    color: #fff;
+    padding: 5em 0;
+
+}
+
+.custom-2 img {
+    border-radius: 50%;
+    width: 10%;
+}
+
