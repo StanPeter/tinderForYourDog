@@ -10,12 +10,21 @@ body {
     text-align: center;
 }
 
-header {
-    background-color: #ff4c68;
-    color: white;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold", sans-serif;
+    line-height: 1.5;
 }
 
-.color-section {
+p {
+    color: grey;
+}
+
+/* sections */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
     background: #ff4c68;
     color: #fff;
 }
@@ -24,47 +33,30 @@ header {
     background: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat-Black", sans-serif;
-    font-weight: 800;
-    line-height: 1.5;
-
-}
-
-h1 {
-    font-size: 3.5em;
-}
-
-h2 {
-    font-size: 2.5em;
-}
-
-p {
-    color: grey;
-}
-
-.container-fluid {
-    padding: 7% 15%;
-}
-
 /* header section */
 .navbar {
-    padding: 0 0 4.5em;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-size: 2em;
+    font-size: 2.5rem;
     font-weight: 600;
     font-family: "Ubuntu";
 }
 
+.nav-item {
+    padding: 1.2rem;
+}
+
 .nav-link {
-    padding: 0 1.2em;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: "Montserrat-light";
 }
 
-.header-h1 {
+.header-section {
+    padding: 3% 15% 7%;
+    background-color: #ff4c68;
+    color: #fff;
     text-align: left;
 }
 
@@ -79,88 +71,87 @@ p {
     right: 30%;
 }
 
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+}
+
 /* Section 1 (attribute section) */
 .attribute-section {
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
-    z-index: 1;
 }
 
-.attribute-section i {
+.attribute-box {
+    padding: 4.5%;
+}
+
+.attribute-box i {
     color: #ef8172;
-    font-size: 3.5em;
+    margin-bottom: 1rem;
 }
 
-.attribute-section i:hover {
+.attribute-box i:hover {
     color: #ff4c68;
 }
 
-.attribute-section h3 {
-    padding: 0.5em 0 0.2em;
-    font-weight: 600;
+.attribute-box h3 {
+    font-size: 1.5rem;
 }
  
 /* Section 2 (Carousel section) */
 .carousel-section {
     background: #ef8172;
-    color: #fff;
-    padding: 5em 0;
 }
 
-.carousel-section h2 {
-    margin-bottom: 1em;
+.carousel-text {
+    font-size: 2.7rem;
 }
 
-.carousel-section img {
-    width: 15%;
-    margin: 1em 1em;
-}
-
-.carousel-image {
+.carousel-item img {
     border-radius: 50%;
-    width: 12% !important;
+    width: 10%;
+    margin: 1.2rem;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.carousel-logo img{
+    width: 15%;
+    margin: 1.2em 1.2em 8%;
 }
 
 
 /* Section 3 (Price section) */
 
 .price-section {
-    padding: 4em;
+    padding: 6rem;
 }
 
-.custom-card {
+.price-heading {
+  font-size: 3rem;
+}
+
+.pricing-card {
     padding: 3% 2%;
-    text-align: center;
 }
 
 /* Section 4 (download-section) */
-.download-section {
-    padding: 7% 18%;
-    background: #ff4c68;
-}
-
-.download-section h2{
-    color: #fff;
-}
 
 .download-section button {
     margin: 5% 3% 5% 0;
 }
 
+.download-section h2 {
+    font-size: 3rem;
+}
+
 
 /* footer section */
 .footer-section {
-    background: #fff;
     padding: 7% 18% 3%;
 }
 
 .footer-section i {
     padding: 2% 1%;
+    font-size: 1.2rem;
 }
 
 .footer-section i:hover {
@@ -171,7 +162,7 @@ p {
 
 /* media queries */
 
-@media (max-width: 1028px){
+@media (max-width: 922px){
     .header-image {
         position: static;
         transform: rotate(0);
@@ -180,3 +171,4 @@ p {
         text-align: center;
     }
 }
+
