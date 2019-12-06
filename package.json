@@ -1,0 +1,23 @@
+{
+  "name": "tinderforyourdog",
+  "version": "1.0.0",
+  "description": "A landing page called tindog using html5, bootstrap4, css3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanPeter/tinderForYourDog.git"
+  },
+  "author": "stan05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanPeter/tinderForYourDog/issues"
+  },
+  "homepage": "https://github.com/StanPeter/tinderForYourDog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
