@@ -1,4 +1,5 @@
 /* styles for the whole webpage */
+
 html body {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ p {
 }
 
 /* sections */
+
 .container-fluid {
     padding: 7% 15%;
 }
@@ -34,6 +36,7 @@ p {
 }
 
 /* header section */
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -72,11 +75,12 @@ p {
 }
 
 .big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
 }
 
 /* Section 1 (attribute section) */
+
 .attribute-section {
     position: relative;
 }
@@ -97,8 +101,9 @@ p {
 .attribute-box h3 {
     font-size: 1.5rem;
 }
- 
+
 /* Section 2 (Carousel section) */
+
 .carousel-section {
     background: #ef8172;
 }
@@ -113,11 +118,10 @@ p {
     margin: 1.2rem;
 }
 
-.carousel-logo img{
+.carousel-logo img {
     width: 15%;
     margin: 1.2em 1.2em 8%;
 }
-
 
 /* Section 3 (Price section) */
 
@@ -126,7 +130,7 @@ p {
 }
 
 .price-heading {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .pricing-card {
@@ -143,8 +147,8 @@ p {
     font-size: 3rem;
 }
 
-
 /* footer section */
+
 .footer-section {
     padding: 7% 18% 3%;
 }
@@ -158,11 +162,9 @@ p {
     cursor: pointer;
 }
 
-
-
 /* media queries */
 
-@media (max-width: 922px){
+@media (max-width: 922px) {
     .header-image {
         position: static;
         transform: rotate(0);
@@ -171,4 +173,3 @@ p {
         text-align: center;
     }
 }
-
